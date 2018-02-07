@@ -1,0 +1,44 @@
+
+/*---picture's section---*/
+.mainpict{
+    margin: 5% 15% 0 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainpict article{
+    max-width: 80%;
+}
+.mainpict img{
+    max-width: 100%;
+    border-radius: 1%;
+}
+/*------*/
+.accSect1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.accSect1 img{
+    margin: 0 0 5% 0;
+    max-width: 75%;
+}
+.mainpict p{
+    margin: 0 0 5% 0;
+    max-width: 100%;
+}
+/*------*/
+.coverpictures{
+    max-width: 100%;
+    margin: 5% 15% 0 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.coverpictures img{
+    max-width: 75%;
+}
+.bottomP{font-size: 1rem;}
